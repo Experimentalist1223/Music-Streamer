@@ -39,11 +39,11 @@ Give us a star and fork our repo
   
 ### Noob Developers 
   
-<a href="https://t.me/anonymous_was_bot"><img src="https://img.shields.io/badge/Ultra Max Pro%20 Anonymous-ReD.svg?style=for-the-badge&logo=Python"></a> 
+<a href="https://t.me/Its_romeoo"><img src="https://img.shields.io/badge/- ❛𝗥𝗼𝗺𝗲𝗼 [🇮🇳] 𝘅𝗗-ReD.svg?style=for-the-badge&logo=Python"></a> 
   
-<a href="https://t.me/herox_xd"><img src="https://img.shields.io/badge/Noob%20 Herox-ReD.svg?style=for-the-badge&logo=Python"></a> 
+<a href="https://t.me/PhoenixWarmed"><img src="https://img.shields.io/badge/꯭❰꯭-꯭𝗖꯭𝗙꯭𝗖꯭-꯭❱꯭ 𝙋꯭꯭𝙃꯭꯭𝞡꯭꯭Ξ꯭꯭𝞟꯭꯭𝙄✘꯭꯭ 𝙒꯭꯭𝚫꯭꯭𝙍꯭꯭𝙈꯭꯭𝞢꯭꯭𝘿 ꯭꯭™-ReD.svg?style=for-the-badge&logo=Python"></a> 
   
-  <a href="https://t.me/ABHIISH3K_xD"><img src="https://img.shields.io/badge/Piro%20 Abhishek-Green.svg?style=for-the-badge&logo=Python"></a>
+
 ## Support & Updates 
 <a href="https://t.me/StrayCoderSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/StrayCoder"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
   
