@@ -42,8 +42,8 @@ For Help : @StrayCoderSupport
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/bb7e6f59b3db29b215446.jpg",
-        caption=f"""""",
+        photo=f"https://telegra.ph/file/015e397f937eab3ad975d.jpg",
+        caption=f"""`Click on the given button to get the Source Code of the Bot !!`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
