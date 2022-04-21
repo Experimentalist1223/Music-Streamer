@@ -18,7 +18,7 @@ ACTV_CALLS = []
 @authorized_users_only
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_text("Song Has Been Paused ▶️ Successfully In The Voice Chat ✅")
+    await message.reply_text("Song Has Been Paused ▶️")
 
 
 @Client.on_message(command(["resume"]) & other_filters)
@@ -26,7 +26,7 @@ async def pause(_, message: Message):
 @authorized_users_only
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_text("Song Has Been Resumed ⏸️ Successfully In The Voice Chat ✅")
+    await message.reply_text("Song Has Been Resumed ⏸️")
 
 
 @Client.on_message(command(["end"]) & other_filters)
@@ -65,4 +65,4 @@ async def skip(_, message: Message):
                     ),
                 ),
             )
-    await message.reply_text("Song Has Been Skipped ⏩ Successfully In The Voice Chat ✅")
+    await message.reply_text("Song Has Been Skipped ⏩")
