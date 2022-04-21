@@ -45,29 +45,29 @@ async def start_op(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cb_cmd"))
 async def cbcmd(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**here is some commands**
-𝙎𝙞𝙢𝙥𝙡𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙 
-•  `/play (song name)` 
-•  `/skip` - skip the current song
-•  `/end` - stop music play
-•  `/pause` - pause song play
-•  `/resume` - resume song play
-•  `/mute` - mute assistant in vc
-•  `/lyrics (song name)`
-𝙁𝙪𝙣 𝙘𝙤𝙢𝙢𝙖𝙣𝙙
-• `/truth` 🌝
-• `/dare`  🌝
-• `/sjm`    🌝
-• `/abhi`   🌝
-• `/tricky` 🌝
-𝙀𝙭𝙩𝙧𝙖 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨
-• `/ping` pong !!
-• `/start` - Alive msg ~group 
-• `/id` - Find out your grp and your id // stickers id also
-• `/uptime` - 💻
-• `/rmd` clean all downloads
-• `/clean` - clear storage 
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+        f"""**🤖 Normal Bot Commands :-
+
+» /play - (song name) 
+» /skip - Skip the Song
+» /end - Stop Playing Music
+» /pause - Pause the track
+» /resume - Resumes the Track
+» /mute - Mute the Assistant 
+» /search - (song name)
+
+
+
+⚙ Some Extra Commands :-
+
+» /ping - Shows the Ping Status
+» /start - Starts the Bot
+» /id - Get the ID
+» /uptime - Shows the UpTime 
+» /rmd - Clean all the downloads
+» /clean - Clean the Storage
+
+
+🌀 Powered By : @StrayCoder**""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("⬅️ Back", callback_data="cb_start")]]
         ),
