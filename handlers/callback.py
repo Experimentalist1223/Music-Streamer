@@ -10,10 +10,10 @@ from config import (
 async def start_op(_, query: CallbackQuery):
     await query.answer("Bot Started")
     await query.edit_message_text(
-              f"**Hello, Welcome {message.from_user.mention()}\n
+              f"""**Hello, Welcome {message.from_user.mention()}\n
 I am powerful easy to use TeleGram Super Bot. I can play high quality and unbreakable music in your group voice chat. Just add me and promote with needed powers.\n
 Use Inline buttons for more !!
-For Help : @StrayCoderSupport**",
+For Help : @StrayCoderSupport**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
