@@ -10,19 +10,17 @@ from config import (
 async def start_op(_, query: CallbackQuery):
     await query.answer("Bot Started")
     await query.edit_message_text(
-              f"""**Hello, Welcome {message.from_user.mention()}
-
-I am powerful easy to use TeleGram Super Bot. I can play high quality and unbreakable music in your group voice chat. Just add me and promote with needed powers.
-
+              f"**Hello, Welcome {message.from_user.mention()}\n
+I am powerful easy to use TeleGram Super Bot. I can play high quality and unbreakable music in your group voice chat. Just add me and promote with needed powers.\n
 Use Inline buttons for more !!
-For Help : @StrayCoderSupport**""",
+For Help : @StrayCoderSupport**",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("✚ Add me to your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_USERNAME}"),
-                    InlineKeyboardButton("📢 Source Code", url=f"https://t.me/StrayCoder")
+                    InlineKeyboardButton("📢 Source Code", url=f"https://github.com/TheStrayCoder/Music-Streamer")
                 ],[
                     InlineKeyboardButton("📨 Support", url=f"https://t.me/StrayCoderSupport"),
                     InlineKeyboardButton("📨 Updates", url=f"https://t.me/StrayCoder")
