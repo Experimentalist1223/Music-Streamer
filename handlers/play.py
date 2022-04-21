@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝐞𝐒𝐩𝐨𝐫𝐭 🚬 ❱...**")
+    lel = await message.reply("Searching 🔎 Your Song !!")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -160,11 +160,7 @@ async def play(_, message: Message):
 
         keyboard = InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/eSport_BOTs")
-               ],
+                
                [
                     InlineKeyboardButton(
                             text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
@@ -174,12 +170,7 @@ async def play(_, message: Message):
                             text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
                             url=f"https://t.me/Smoker_Feelings")
                ],
-               [
-                        InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/EsportClan")
-                   
-                ]
+               
             ]
         )
 
@@ -213,11 +204,7 @@ async def play(_, message: Message):
 
             keyboard = InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/eSport_BOTs")
-               ],
+                
                [
                     InlineKeyboardButton(
                             text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
@@ -227,12 +214,7 @@ async def play(_, message: Message):
                             text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
                             url=f"https://t.me/Smoker_Feelings")
                ],
-               [
-                        InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/EsportClan")
-                   
-                ]
+               
             ]
         )
 
@@ -243,11 +225,7 @@ async def play(_, message: Message):
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/eSport_BOTs")
-               ],
+                
                [
                     InlineKeyboardButton(
                             text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
@@ -257,12 +235,7 @@ async def play(_, message: Message):
                             text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
                             url=f"https://t.me/Smoker_Feelings")
                ],
-               [
-                        InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/EsportClan")
-                   
-                ]
+               
             ]
         )
 
@@ -304,18 +277,14 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🌸° 𝐒𝐨𝐧𝐠 🎸 𝐍𝐨𝐭 😒 𝐅𝐨𝐮𝐧𝐝 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 ° 🥀.**"
+                "Song Not Found ❌ Correct Your Speeling 😂 Or Give Me A Link."
             )
             print(str(e))
             return
 
         keyboard = InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/eSport_BOTs")
-               ],
+                
                [
                     InlineKeyboardButton(
                             text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
@@ -325,12 +294,7 @@ async def play(_, message: Message):
                             text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
                             url=f"https://t.me/Smoker_Feelings")
                ],
-               [
-                        InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/EsportClan")
-                   
-                ]
+               
             ]
         )
 
@@ -350,7 +314,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰ 𝐌𝐮𝐬𝐢𝐜'𝐗 ❘ 𝐞𝐒𝐩𝐨𝐫𝐭 😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
+            caption="**Stream has Started 📡**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +331,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰ 𝐌𝐮𝐬𝐢𝐜'𝐗 ❘ 𝐞𝐒𝐩𝐨𝐫𝐭 😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
+            caption="**Stream has Started 📡**".format(
         message.chat.title
         ), )
 
