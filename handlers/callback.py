@@ -7,7 +7,7 @@ from config import (
 
 
 @Client.on_callback_query(filters.regex("cb_start"))
-async def start_bot(_, query: CallbackQuery):
+async def start_op(_, query: CallbackQuery):
     await query.answer("Bot Started")
     await query.edit_message_text(
               f"""Hello, Welcome {message.from_user.mention()}
