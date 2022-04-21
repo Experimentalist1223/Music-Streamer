@@ -48,7 +48,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 Cʟɪᴄᴋ Mᴇ Tᴏ Gᴇᴛ Rᴇᴘᴏ 💞", url=f"https://github.com/EsportMusicX/SmokerMusicX")
+                        "⚙️ Source Code", url=f"https://github.com/EsportMusicX/SmokerMusicX")
                 ]
             ]
         ),
