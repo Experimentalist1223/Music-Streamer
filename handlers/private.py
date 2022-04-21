@@ -20,7 +20,7 @@ For Help : @StrayCoderSupport
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✚ Add me to your Group", url=f"https://t.me/{me_bot.username}?startgroup=true")
+                    InlineKeyboardButton("✚ Add me to your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_USERNAME"),
                     InlineKeyboardButton("📢 Source Code", url=f"https://t.me/StrayCoder")
