@@ -13,13 +13,12 @@ from config import (
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""Hello, Welcome {message.from_user.mention()}
+        f"""**Hello, Welcome {message.from_user.mention()}
 
 I am powerful easy to use TeleGram Super Bot. I can play high quality and unbreakable music in your group voice chat. Just add me and promote with needed powers.
 
 Use Inline buttons for more !!
-For Help : @StrayCoderSupport
-""",
+For Help : @StrayCoderSupport**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -35,7 +34,6 @@ For Help : @StrayCoderSupport
                 ],
             ]
         ),
-        disable_web_page_preview=True,
     )
     
 
