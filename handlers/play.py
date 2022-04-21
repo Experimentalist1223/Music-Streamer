@@ -252,7 +252,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "Which song you wants to play in the voice chat ???"
             )
-        await lel.edit("🔎")
+        await lel.edit("**Processing 🔄 Please Wait !!**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
