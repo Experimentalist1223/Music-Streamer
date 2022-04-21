@@ -39,7 +39,7 @@ For Help : @StrayCoderSupport
     )
     
 
-@Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["repo"]) & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/015e397f937eab3ad975d.jpg",
@@ -61,4 +61,4 @@ async def ping_pong(c: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 PONG !\n" f"⏱ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("**× I am Alive ×**\n\n@StrayCoder 📡")
