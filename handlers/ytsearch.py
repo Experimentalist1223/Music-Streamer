@@ -20,7 +20,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 async def ytsearch(_, message: Message):
     try:
         if len(message.command) < 2:
-            await message.reply_text("Please provide the song name also❗")
+            await message.reply_text("Please provide something to Search 🔎")
             return
         query = message.text.split(None, 1)[1]
         m = await message.reply_text("**Processing 🔄 Please Wait !!**")
