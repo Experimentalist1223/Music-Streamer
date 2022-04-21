@@ -39,9 +39,8 @@ For Help : @StrayCoderSupport**""",
 
 @Client.on_message(command(["repo"]) & ~filters.edited)
 async def help(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/015e397f937eab3ad975d.jpg",
-        caption=f"""`Click on the given button to get the Source Code of the Bot !!`""",
+    await message.reply_text(
+        f"""`Click on the given button to get the Source Code of the Bot !!`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -59,3 +58,21 @@ async def ping_pong(c: Client, message: Message):
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
     await m_reply.edit_text("**× I am Alive ×**\n\n@StrayCoder 📡")
+
+
+@Client.on_message(command(["start"]) & filters.group & ~filters.edited)
+async def help(client: Client, message: Message):
+    await message.reply_text(
+        f"""**Thanks for adding me im your Group ❤️ Now promote me as a admin with needed powers otherwise I am not able to work properly !!**""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "⚙️ Source Code", url=f"https://github.com/EsportMusicX/SmokerMusicX")
+                ],[
+                    InlineKeyboardButton("📨 Support", url=f"https://t.me/StrayCoderSupport"),
+                    InlineKeyboardButton("📨 Updates", url=f"https://t.me/StrayCoder")
+                  ],
+            ]
+        ),
+    )
