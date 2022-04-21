@@ -39,9 +39,9 @@ Give us a star and fork our repo
   
 ### Noob Developers 
   
-<a href="https://t.me/Its_romeoo"><img src="https://img.shields.io/badge/- ❛𝗥𝗼𝗺𝗲𝗼 [🇮🇳] 𝘅𝗗-ReD.svg?style=for-the-badge&logo=Python"></a> 
+<a href="https://t.me/Its_romeoo"><img src="https://img.shields.io/badge/- ❛Romeo [🇮🇳] xD-ReD.svg?style=for-the-badge&logo=Python"></a> 
   
-<a href="https://t.me/PhoenixWarmed"><img src="https://img.shields.io/badge/꯭❰꯭-꯭𝗖꯭𝗙꯭𝗖꯭-꯭❱꯭ 𝙋꯭꯭𝙃꯭꯭𝞡꯭꯭Ξ꯭꯭𝞟꯭꯭𝙄✘꯭꯭ 𝙒꯭꯭𝚫꯭꯭𝙍꯭꯭𝙈꯭꯭𝞢꯭꯭𝘿 ꯭꯭™-ReD.svg?style=for-the-badge&logo=Python"></a> 
+<a href="https://t.me/PhoenixWarmed"><img src="https://img.shields.io/badge/Phoenix-ReD.svg?style=for-the-badge&logo=Python"></a> 
   
 
 ## Support & Updates 
