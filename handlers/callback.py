@@ -58,7 +58,4 @@ async def cbcmd(_, query: CallbackQuery):
 
 
 🌀 Powered By : @StrayCoder**""",
-        reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("⬅️ Back", callback_data="cb_start")]]
-        ),
     )
