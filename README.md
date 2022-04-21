@@ -39,7 +39,7 @@ Give us a star and fork our repo
   
 ### Noob Developers 
   
-<a href="https://t.me/Its_romeoo"><img src="https://img.shields.io/badge/- ❛Romeo [🇮🇳] xD-ReD.svg?style=for-the-badge&logo=Python"></a> 
+<a href="https://t.me/Its_romeoo"><img src="https://img.shields.io/badge/Romeo-ReD.svg?style=for-the-badge&logo=Python"></a> 
   
 <a href="https://t.me/PhoenixWarmed"><img src="https://img.shields.io/badge/Phoenix-ReD.svg?style=for-the-badge&logo=Python"></a> 
   
