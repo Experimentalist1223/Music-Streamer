@@ -56,7 +56,6 @@ async def help(client: Client, message: Message):
 
 
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
-@check_blacklist()
 async def ping_pong(c: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
