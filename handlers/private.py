@@ -13,8 +13,7 @@ from config import (
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""**Hello, Welcome {message.from_user.mention()}
-
+        f"""**Hello, Welcome {message.from_user.mention()}\n
 I am powerful easy to use TeleGram Super Bot. I can play high quality and unbreakable music in your group voice chat. Just add me and promote with needed powers.
 
 Use Inline buttons for more !!
@@ -25,7 +24,7 @@ For Help : @StrayCoderSupport**""",
                     InlineKeyboardButton("✚ Add me to your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_USERNAME}"),
-                    InlineKeyboardButton("⚙️ Source Code", url=f"https://t.me/StrayCoder")
+                    InlineKeyboardButton("⚙️ Source Code", url=f"https://github.com/TheStrayCoder/Music-Streamer")
                 ],[
                     InlineKeyboardButton("📨 Support", url=f"https://t.me/StrayCoderSupport"),
                     InlineKeyboardButton("📨 Updates", url=f"https://t.me/StrayCoder")
@@ -39,13 +38,12 @@ For Help : @StrayCoderSupport**""",
 
 @Client.on_message(command(["repo"]) & ~filters.edited)
 async def help(client: Client, message: Message):
-    await message.reply_text(
-        f"""`Click on the given button to get the Source Code of the Bot !!`""",
+    await message.reply_text("`Click on the given button to get the Source Code of the Bot !!`",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚙️ Source Code", url=f"https://github.com/EsportMusicX/SmokerMusicX")
+                        "⚙️ Source Code", url=f"https://github.com/TheStrayCoder/Music-Streamer")
                 ]
             ]
         ),
@@ -62,13 +60,12 @@ async def ping_pong(c: Client, message: Message):
 
 @Client.on_message(command(["start"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
-    await message.reply_text(
-        f"""**Thanks for adding me im your Group ❤️ Now promote me as a admin with needed powers otherwise I am not able to work properly !!**""",
+    await message.reply_text("**Thanks for adding me im your Group ❤️ Now promote me as a admin with needed powers otherwise I am not able to work properly !!**",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚙️ Source Code", url=f"https://github.com/EsportMusicX/SmokerMusicX")
+                        "⚙️ Source Code", url=f"https://github.com/TheStrayCoder/Music-Streamer")
                 ],[
                     InlineKeyboardButton("📨 Support", url=f"https://t.me/StrayCoderSupport"),
                     InlineKeyboardButton("📨 Updates", url=f"https://t.me/StrayCoder")
