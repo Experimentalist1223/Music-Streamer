@@ -33,20 +33,6 @@ For Help : @StrayCoderSupport**""",
             ]
         ),
     )
-    
-
-@Client.on_message(command(["repo"]) & ~filters.edited)
-async def help(client: Client, message: Message):
-    await message.reply_text("`Click on the given button to get the Source Code of the Bot !!`",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "⚙️ Source Code", url=f"https://github.com/TheStrayCoder/Music-Streamer")
-                ]
-            ]
-        ),
-    )
 
 
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
@@ -69,6 +55,20 @@ async def help(client: Client, message: Message):
                     InlineKeyboardButton("📨 Support", url=f"https://t.me/StrayCoderSupport"),
                     InlineKeyboardButton("📨 Updates", url=f"https://t.me/StrayCoder")
                   ],
+            ]
+        ),
+    )
+
+
+@Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
+async def help(client: Client, message: Message):
+    await message.reply_text("`Click on the Button given below to Get the Bot Source Code`",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "⚙️ Source Code", url=f"https://github.com/TheStrayCoder/Music-Streamer")
+                ]
             ]
         ),
     )
