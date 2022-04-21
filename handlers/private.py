@@ -45,7 +45,7 @@ async def ping_pong(c: Client, message: Message):
 
 @Client.on_message(command(["repo"]) & ~filters.edited)
 async def help(client: Client, message: Message):
-    await message.reply_text("`Click on the Button given below to Get the Bot Source Code`",
+    await message.reply_text("`Click on the Button given below to Get the Bot Source Code.`",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
