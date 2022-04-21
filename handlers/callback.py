@@ -7,8 +7,9 @@ from config import (
 
 
 @Client.on_callback_query(filters.regex("cb_start"))
-async def start_op(_, query: CallbackQuery):
-        await query.edit_message_text(
+async def start_bot(_, query: CallbackQuery):
+    await query.answer("Bot Started")
+    await query.edit_message_text(
               f"""Hello, Welcome {message.from_user.mention()}
 
 I am powerful easy to use TeleGram Super Bot. I can play high quality and unbreakable Songs in your group voice chat. Just add me and promote with needed powers.
