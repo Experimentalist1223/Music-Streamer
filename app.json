@@ -1,8 +1,8 @@
 {
-  "name": "StrayCoder Music Bot",
+  "name": "Stray Coder Music ",
   "description": "A powerful telegram music streaming Bot !! Powered by @StrayCoder",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/EsportMusicX/SmokerMusicX",
+  "repository": "https://github.com/TheStrayCoder/Music",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
