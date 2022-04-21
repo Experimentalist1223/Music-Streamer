@@ -314,7 +314,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**Stream has Started 📡**\n\nDuration : {duration}\nStatus : Playing\nBot User : {requester}".format(position),
+            caption="𝗦𝘂𝗽𝗲𝗿 𝗦𝘁𝗿𝗲𝗮𝗺 𝗛𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 📡\n𝗠𝘂𝘀𝗶𝗰 𝗜𝘀 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗜𝗻 𝘃𝗰 ⚡️\n𝗕𝘆 : @PHOENIX_EMPIRE".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -331,7 +331,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**Stream has Started 📡**\n\nDuration : {duration}\nStatus : Playing\nBot User : {requester}".format(
+            caption="𝗦𝘂𝗽𝗲𝗿 𝗦𝘁𝗿𝗲𝗮𝗺 𝗛𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 📡\n𝗠𝘂𝘀𝗶𝗰 𝗜𝘀 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗜𝗻 𝘃𝗰 ⚡️\n𝗕𝘆 : @PHOENIX_EMPIRE".format(
         message.chat.title
         ), )
 
