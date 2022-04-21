@@ -52,4 +52,4 @@ Give us a star and fork our repo
   
 - Click Here 👇🏻 and Join Please
   
-  [![Herox](https://telegra.ph/file/39e17ab3a96207d3e15ac.jpg)](https://t.me/aboutez)
+  [![Phoenix Empire](https://telegra.ph/file/c4a71bd6b606f037b21c8.jpg)](https://t.me/PHOENIX_EMPIRE)
