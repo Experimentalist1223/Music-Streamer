@@ -55,7 +55,7 @@ async def cbcmd(_, query: CallbackQuery):
 » /repo - Get the source code 
 » /rmd - Clean all the downloads
 » /clean - Clean the Storage
-» /broadcast - broadcast your message 
+» /gcast - broadcast your message 
 
 
 🌀 Powered By : @StrayCoder**""",
