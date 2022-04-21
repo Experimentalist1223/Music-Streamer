@@ -33,7 +33,7 @@ For Help : @StrayCoderSupport
                 [
                     InlineKeyboardButton("✚ Add me to your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_USERNAME"),
+                    InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_USERNAME}"),
                     InlineKeyboardButton("📢 Source Code", url=f"https://t.me/StrayCoder")
                 ],[
                     InlineKeyboardButton("📨 Support", url=f"https://t.me/StrayCoderSupport"),
