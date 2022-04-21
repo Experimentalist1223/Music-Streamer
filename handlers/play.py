@@ -118,7 +118,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>𝐀𝐝 𝐌𝐞 😎 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💫  𝐅𝐢𝐫𝐬𝐭 ❰ 𝐞𝐒𝐩𝐨𝐫𝐭 ❤️  𝐌𝐮𝐬𝐢𝐜'𝐗  🚬 ❱</b>")
+                        "**Promote me as a administrator of your group with Needed Powers❗**")
                     return
 
                 try:
@@ -163,12 +163,12 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
-                            url=f"https://t.me/Sanki_Owner"),
+                            text="📨 Support",
+                            url=f"https://t.me/StrayCoderSupport"),
                             
                     InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
-                            url=f"https://t.me/Smoker_Feelings")
+                            text="📨 Updates",
+                            url=f"https://t.me/StrayCoder")
                ],
                
             ]
@@ -207,12 +207,12 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
-                            url=f"https://t.me/Sanki_Owner"),
+                            text="📨 Support",
+                            url=f"https://t.me/StrayCoderSupport"),
                             
                     InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
-                            url=f"https://t.me/Smoker_Feelings")
+                            text="📨 Updates",
+                            url=f"https://t.me/StrayCoder")
                ],
                
             ]
@@ -228,12 +228,12 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
-                            url=f"https://t.me/Sanki_Owner"),
+                            text="📨 Support",
+                            url=f"https://t.me/StrayCoderSupport"),
                             
                     InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
-                            url=f"https://t.me/Smoker_Feelings")
+                            text="📨 Updates",
+                            url=f"https://t.me/StrayCoder")
                ],
                
             ]
@@ -287,12 +287,12 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
-                            url=f"https://t.me/Sanki_Owner"),
+                            text="📨 Support",
+                            url=f"https://t.me/StrayCoderSupport"),
                             
                     InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
-                            url=f"https://t.me/Smoker_Feelings")
+                            text="📨 Updates",
+                            url=f"https://t.me/StrayCoder")
                ],
                
             ]
