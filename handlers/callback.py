@@ -2,6 +2,12 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
+from config import (
+    BOT_USERNAME,
+    OWNER_USERNAME,   
+)
+
+
 @Client.on_callback_query(filters.regex("cb_start"))
 async def start_op(_, query: CallbackQuery):
         await query.edit_message_text(
