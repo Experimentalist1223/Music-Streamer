@@ -12,7 +12,7 @@ from config import (
 
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
-    await message.reply_text("**Thanks for adding me im your Group ❤️ Now promote me as a admin with needed powers otherwise I am not able to work properly !!**",
+    await message.reply_text("**Thanks for adding me in your Group ❤️ Now promote me as administrator In this Chat with needed powers otherwise I am not able to work properly !!**",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
