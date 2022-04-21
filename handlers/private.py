@@ -6,15 +6,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from config import (
-    ALIVE_IMG,
-    ALIVE_NAME,
-    BOT_NAME,
     BOT_USERNAME,
-    GROUP_SUPPORT,
-    OWNER_NAME,
-    UPDATES_CHANNEL,
-    OWNER_NAME,
-    START_PIC,
+    OWNER_USERNAME,   
 )
 
 
