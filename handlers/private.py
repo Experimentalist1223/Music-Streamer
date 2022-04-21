@@ -20,17 +20,15 @@ For Help : @StrayCoderSupport
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("➕ Add me to a Group ➕", url=f"https://t.me/{me_bot.username}?startgroup=true")
+                    InlineKeyboardButton("✚ Add me to your Group", url=f"https://t.me/{me_bot.username}?startgroup=true")
                 ],[
-                    InlineKeyboardButton("❓ Basic Guide", callback_data="user_guide")
+                    InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_USERNAME"),
+                    InlineKeyboardButton("📢 Source Code", url=f"https://t.me/StrayCoder")
                 ],[
-                    InlineKeyboardButton("📚 Commands", callback_data="command_list"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_USERNAME}")
+                    InlineKeyboardButton("📨 Support", url=f"https://t.me/StrayCoderSupport"),
+                    InlineKeyboardButton("📨 Updates", url=f"https://t.me/StrayCoder")
                 ],[
-                    InlineKeyboardButton("👥 Support Group", url=f"https://t.me/{GROUP_SUPPORT}"),
-                    InlineKeyboardButton("📣 Support Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
-                ],[
-                    InlineKeyboardButton("🌐 Source Code", url="https://github.com/levina-lab/video-stream")
+                    InlineKeyboardButton("🔍 How To Use? Commands", callback_data="cb_cmd")
                 ],
             ]
         ),
