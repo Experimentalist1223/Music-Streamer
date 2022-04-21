@@ -54,7 +54,7 @@ async def cbcmd(_, query: CallbackQuery):
 » /ping - Shows the Ping Status
 » /start - Starts the Bot
 » /id - Get the ID
-» /uptime - Shows the UpTime 
+» /repo - Get the source code 
 » /rmd - Clean all the downloads
 » /clean - Clean the Storage
 
