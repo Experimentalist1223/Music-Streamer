@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("Searching 🔎 Your Song !!")
+    lel = await message.reply("**Searching 🔎 Your Song !!**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -314,7 +314,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**Stream has Started 📡**".format(position),
+            caption="**Stream has Started 📡**\n\nDuration : {duration}\nStatus : Playing\nBot User : {requester}".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -331,7 +331,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**Stream has Started 📡**".format(
+            caption="**Stream has Started 📡**\n\nDuration : {duration}\nStatus : Playing\nBot User : {requester}".format(
         message.chat.title
         ), )
 
