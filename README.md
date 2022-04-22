@@ -21,7 +21,7 @@
   
 ### Heroku Deployment
   
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheStrayCoder/Music-Streamer)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Experimentalist1223/Music-Streamer)
   
   
 ###  Okteto Deployment
